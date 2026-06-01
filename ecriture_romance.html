@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="ecriture_romance.css">
+    <title>Portofolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="page_presentation.html"><img class="image_logo" src="logo.png" height="70"></a>
+            <input type="checkbox" id="burger">
+            <label for="burger"><i style="font-size: 20px" class="icon icon-menu"></i></label>
+            <div class="menu" bis_skin_checked="1">
+                <ul style="font-size: 20px;" class="list">
+                    <li><a href="page_presentation.html">Présentation</a></li>
+                    <li><a class="active" href="page_projets.html">Mes Projets</a></li>
+                    <li><a href="page_contacter.html">Me Contacter</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+
+    <section class="debut">
+        <form>
+            <input type="button" value="Retour aux projets" onclick="history.back()">
+        </form>
+	    <h1 align="center">Écriture d'un livre (romance)</h1>
+
+    </section>  
+
+    <aside>
+        Test
+    </aside>
+   
+    <main>
+        <nav class="sommaire">
+            <h2>Sommaire</h2>
+            <ul>
+                <li><a href="#intro">Introduction du projet</a></li>
+                <li><a href="#partie1">Partie 1 : Réfléchir à l'histoire</a></li>
+                <li><a href="#partie2">Partie 2 : Rédaction<a></li>
+                <li><a href="#competences">Compétences acquises</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+        
+        <section class="contenu">
+            <section id="intro">
+                <h2>Introduction du projet</h2>
+                <p>Ce projet a débuté à la fin de l'été 2024.
+                </p>
+            </section>
+
+            <section id="partie1">
+                <h2>Partie 1 : Création d'une table adaptée</h2>
+                <p>La base de données d'OpenFoodFacts comporte des données alimentaires telles que le nutri-score, les valeurs nutritionnelles, le nom du produit, etc. Une fois
+                   la problématique comprise, nous avons pu commencer à exploiter cette grande base de données en se renseignant sur le format des données. Nous avons sélectionné 
+                   les attributs (et leurs valeurs) qui avaient un lien, direct ou non, avec notre problématique. Pour rassembler toutes ces données, nous avons créé une table. 
+                   Une fois toutes les infos réunies, nous avons dû faire un gros travail de tri. Certaines données étaient fausses : par exemple, leurs valeurs nutritionnelles 
+                   étaient incohérentes (taux de sel bien trop élevé). Aussi, certaines données étaient incomplètes : il pouvait manquer le nutri-score, des valeurs nutritionnelles 
+                   ou encore le nom du produit. Notre travail était donc de rendre cette table la plus complète et juste possible. Le rendu de cette étape était un fichier contenant 
+                   la requête SQL utilisée. Il fallait qu'elle soit la plus courte possible, en limitant au maximum les petites requêtes.
+                </p>
+            </section>
+
+            <section id="partie2">
+                <h2>Partie 2 : Analyse des données</h2>
+                <p>La deuxième étape de ce projet a été de réaliser une étude sur nos données, tout en restant en lien avec notre problématique. Grâce au logiciel RStudio, nous avons 
+                   donc pu construire des graphiques, de telle sorte à ce qu'ils soient le plus clair et compréhensible possible. Cela passait donc par de bons noms d'axes et des types 
+                   de graphiques adaptés.
+
+                </p>
+            </section>
+
+            <section id="competences">
+                <h2>Compétences acquises</h2>
+                <p>Tout au long de ce projet, j'ai pu renfocer mes compétences au niveau des requêtes SQL car il fallait être trsè précis afin d'avoir les bonnes valeurs. J'ai également 
+                   pu renforcer mes compétences dans le logiciel RStudio au niveau de la création de graphiques. Il fallait être méthodique pour ne pas se perdre dans toutes les données 
+                   de la base, et donc, noter correctement ce que nous faisions à chaque étape. 
+                </p>
+            </section>
+
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>Pour clore cette rapide présentation du projet, j'ai beaucoup aimé le réaliser car cela touchait de vrais sujets (nutri-score, valeurs nutritionnelles, etc.) sur lesquels 
+                   nous devions avoir un certain aspect critique pour expliquer notre avis.
+                </p>
+            </section>
+
+            
+        </section>
+    </main>
+
+
+</body>
+</html>

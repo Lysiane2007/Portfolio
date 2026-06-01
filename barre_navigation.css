@@ -1,0 +1,55 @@
+/* Normes pour toutes les pages */
+
+:root {
+    --marron: #66280A;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Barre de navigation */
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;   
+}
+
+header nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav .active {
+    color: var(--marron);
+}
+
+nav ul li:hover {
+    color: var(--marron);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+#burger,
+.navbar label {
+    display: none;
+    color: inherit;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
+    <title>Orange Business</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="./index.html"><img src="./src/img/logo.png" height="50"></a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i style="font-size: 20px" class="icon icon-menu"></i></label>
+            <div class="menu" bis_skin_checked="1">
+                <ul style="font-size: 20px;" class="list">
+                    <li><a class="active" href="./index.html">Accueil</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./nos_services.html">Nos Services</a></li>
+                    <li><a href="./nos_projets.html">Nos Projets</a></li>
+                    <li><a href="./nous_rejoindre.html">Nous Rejoindre</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <main class="index-main">
+        <section class="entete">
+            <section class="titre">
+                <h1>Orange Business Services</h1>
+                <h2>une entreprise au service de ses clients</h2>
+                <div class="savoir-plus">
+                    <a href="./nos_services.html"><input type="submit" value="En savoir plus " class="plus"></a>
+                </div>
+            </section>
+            <section class="sites">
+                <ul>
+                    <li><a href="https://x.com/orangebusiness"><i class="icon icon-social-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/orange-business"><i
+                                class="icon icon-social-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/orangebusiness"><i
+                                class="icon icon-social-youtube"></i></a></li>
+                    <li><a href="https://www.facebook.com/orangebusiness"><i class="icon icon-social-facebook"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/orangebusiness"><i class="icon icon-social-instagram"></i></a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="bloc">
+            <div class="onglets-titre">
+                <h3>Nos anciens stagiaires</h3>
+                <div class="onglets">
+                    <button id="sbtn1" class="sActive" onclick="changeStage('Ndeye')">Ndeye</button>
+                    <button id="sbtn2" onclick="changeStage('Juliette');">Juliette</button>
+                    <button id="sbtn3" onclick="changeStage('Clement');">Clément</button>
+                    <button id="sbtn4" onclick="changeStage('Victoire');">Victoire</button>
+                    <button id="sbtn5" onclick="changeStage('Sacha');">Sacha</button>
+                    <button id="sbtn6" onclick="changeStage('Mathilde');">Mathilde</button>
+                    <button id="sbtn7" onclick="changeStage('Nada');">Nada</button>
+                </div>
+            </div>
+
+            <div class="conteneur">
+                <section class="info_stagiaire">
+                    <img class="avatar" id="avatar" src="./src/img/ndeye.png" width="128" height="128">
+                    <div>
+                        <p id="sTitle">Ndeye, 14 ans, F</p>
+                        <p id="sDate">Stage effectué en 2024</>
+                        <p id="sQuote" class="avis">"Orange m'a permis de trouver ma voie et d'en savoir plus sur le monde du travail"</>
+                    </div>
+                </section>
+                <section class="details_stagiaire">
+                    <iframe id="sLink" src="https://www.youtube.com/embed/Ot8STsYft3k?si=3iFLjKuLsChZHRvW"
+                        title="YouTube video player" frameborder="0"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- iframe généré par Youtube-->
+                    <h3>Evaluation de son experience : <br><span class="etoiles" id="sEval">&#9733 &#9733 &#9733 &#9733 &#9733</span></h3>
+                </section>
+            </div>
+        </section>
+
+        <div class="bouton">
+            <a href="./nous_rejoindre.html"><input type="submit" value="Ça vous tente ? Rejoignez-nous !" class="input"></a>
+        </div>
+
+    </main>
+
+    <hr>
+    <footer>
+        <h2 style="margin: 0;">LA NEWSLETTER</h2>
+        <h4>Inscrivez-vous à notre newsletter pour ne pas manquer nos dernières informations sur la tech !</h4>
+        <form>
+            <div>
+                <input type="email" name="email" id="email" placeholder="Votre adresse email" required>
+                <input type="submit" name="submit" value="S'inscrire">
+            </div>
+        </form>
+    </footer>
+
+</body>

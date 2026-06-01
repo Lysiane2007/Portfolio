@@ -1,0 +1,178 @@
+/* Normes pour toutes les pages */
+
+:root {
+    --marron: #B4764F;
+    --beige: #f3e2c1;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-family:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #fdfaf6;
+}
+
+.debut {
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative; 
+}
+
+.debut > h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.debut > form > input{
+    border: solid 2px #c6ae90 ;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #ffecda ;
+    transition: all .25s ease;
+}
+
+.debut > form > input:hover {
+    box-shadow: #c6ae90  4px 4px;
+    cursor: pointer;
+}
+
+/* DEBUT barre de navigation */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #faf5ef;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf5ef;   
+   
+}
+
+header nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav .active {
+    color: var(--marron);
+}
+
+nav ul li:hover {
+    color: var(--marron);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+#burger,
+.navbar label {
+    display: none;
+    color: inherit;
+}
+
+.image_logo{
+    margin-top: 10px;
+    margin-left: 10px;
+	border-radius: 50%;
+}
+/* FIN barre de navigation */
+
+/* DEBUT sommaire */
+.sommaire {
+    background: #ede0d4;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.sommaire h2 {
+    margin-top: 0;
+}
+
+.sommaire ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sommaire li {
+    margin: 5px 0;
+}
+
+.sommaire a {
+    text-decoration: none;
+    font-weight: bold;    
+    color: #8d4925;
+}
+
+.sommaire a:hover {
+    text-decoration: underline;
+}
+
+
+/* FIN sommaire */
+
+/*DEBUT corps de la page */
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+aside{
+    background: #ede0d4;
+    padding: 15px;
+    border-radius: 5px;
+    width: 95%;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 20px;
+}
+
+
+
+/*FIN corps de la page */

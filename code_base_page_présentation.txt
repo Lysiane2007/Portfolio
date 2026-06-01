@@ -1,0 +1,47 @@
+<main class="presentation">
+        <section class="titre">
+            <h1>Présentation</h1>
+		</section>
+		
+		<section class="premieres_infos">
+			<h2>Premières informations</h2>
+			<p>
+				Date de naissance : 25/09/2007 <br><br>
+				Adresse : 12 Impasse de la Noyeraie <br>
+				Code postale : 38760, Varces-Allières-et-Risset <br><br>
+				Adresse mail institutionnelle : <a href="mailto:lysiane.blachon@etu.univ-grenoble-alpes.fr">lysiane.blachon@etu.univ-grenoble-alpes.fr</a> 
+				
+			</p>
+			
+			<section class="diplomes">
+				<h2>Diplômes obtenus</h2>
+					<p> 
+						2025 : Bac STI2D mention BIEN
+					</p>
+
+			<section class="compétences">
+				<h2>Compétences</h2>
+					<article>
+					<dl>
+						<dt>Enseignement spécifique SIN : </dt>
+						<dd>Arduino, RFID, HTML, etc... </dd>
+						<dt>Enseignement spécifique maths/physique : </dt>
+						<dd>Nb complexes, intégrales, etc... </dd>
+					</dl> 
+					</article>
+			</section>
+			
+			<section class="langues">
+				<h2>Langues</h2>
+					<article>
+						<p>Voici les langues que je pratique : <br></p>
+						<dl>
+							<dt>Français : </dt>
+							<dd>Langue maternelle </dd>
+							<dt>Anglais : </dt>
+							<dd>Niveau B1-B2 </dd>
+							<dt>Italien : </dt>
+							<dd>Niveau B2 </dd>
+						</dl>
+				</article>
+			<section>

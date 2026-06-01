@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
+    <title>FAQ</title>
+</head>
+
+<body>
+    <!--Haut de page-->
+    <header>
+        <nav class="navbar">
+            <a href="./index.html"><img src="./src/img/logo.png" height="50"></a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i style="font-size: 20px" class="icon icon-menu"></i></label>
+            <div class="menu" bis_skin_checked="1">
+                <ul style="font-size: 20px;" class="list">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a class="active" href="./faq.html">FAQ</a></li>
+                    <li><a href="./nos_services.html">Nos Services</a></li>
+                    <li><a href="./nos_projets.html">Nos Projets</a></li>
+                    <li><a href="./nous_rejoindre.html">Nous Rejoindre</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <!--FAQ-->
+    <main class="faq-main">
+        <h1>Foire aux questions</h1>
+        <section>
+            <details>
+                <summary>Qui peut postuler pour un stage ?<i class="icon icon-arrow-down"></i></summary>
+                <p>Tous les élèves de Troisième peuvent postuler au stage. Ce site d'Orange Business Services vous est exclusivement réservé !</p>
+            </details>
+
+            <details>
+                <summary>Quels sont les horaires pendant le stage ? <i class="icon icon-arrow-down"></i></summary>
+                <p>Les plages horaires sont de 9h à 12h, puis de 13h à 16h, du lundi au vendredi.</p>
+            </details>
+
+            <details>
+                <summary>Quelle est l'ambiance de travail ? <i class="icon icon-arrow-down"></i></summary>
+                <p>L'ambiance de travail est conviviale et collaborative.
+                Elle favorise l'entraide, la communication et le respect au sein de l'équipe, comme le soulignent les avis de nos
+                anciens stagiaires.</p>
+            </details>
+
+            <details>
+                <summary>Faut-il un CV pour postuler ? <i class="icon icon-arrow-down"></i></summary>
+                <p>Non ! Le dépot de CV n'est pas demandé. Cependant, il est obligatoire de nous faire part de vos motivations. Rendez-vous
+                dans la rubrique "Nous Rejoindre" pour nous les partager !</p>
+            </details>
+            <details>
+                <summary>À quelles catégories de métiers ce stage peut-il mener ? <i class="icon icon-arrow-down"></i></summary>
+                <p>Ce stage peut mener aux métiers du numérique tels que la gestion de projets, le conseil et service aux entreprises, la télécommunication et plein d'autres !</p>
+            </details>
+
+        </section>
+    </main>
+
+    <!--Footer-->
+    <hr>
+    <footer>
+        <h2 style="margin: 0;">LA NEWSLETTER</h2>
+        <h4>Inscrivez-vous à notre newsletter pour ne pas manquer nos dernières informations sur la tech !</h4>
+        <form>
+            <div>
+                <input type="email" name="email" id="email" placeholder="Votre adresse email" required>
+                <input type="submit" name="submit" value="S'inscrire">
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sommaire Cliquable</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+    }
+
+    /* Style du sommaire */
+    .sommaire {
+        background: #f4f4f4;
+        padding: 15px;
+        border-radius: 5px;
+        max-width: 300px;
+    }
+
+    .sommaire h2 {
+        margin-top: 0;
+    }
+
+    .sommaire ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .sommaire li {
+        margin: 5px 0;
+    }
+
+    .sommaire a {
+        text-decoration: none;
+        color: brown;
+    }
+
+    .sommaire a:hover {
+        text-decoration: underline;
+    }
+
+    /* Espacement entre sections */
+    section {
+        margin-top: 50px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Sommaire -->
+<nav class="sommaire">
+    <h2>Sommaire</h2>
+    <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#partie1">Partie 1 : HTML</a></li>
+        <li><a href="#partie2">Partie 2 : CSS</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</nav>
+
+<!-- Contenu -->
+<section id="intro">
+    <h2>Introduction</h2>
+    <p>Bienvenue dans cet exemple de sommaire cliquable en HTML et CSS.</p>
+</section>
+
+<section id="partie1">
+    <h2>Partie 1 : HTML</h2>
+    <p>Le HTML permet de structurer le contenu et de créer des ancres avec l'attribut <code>id</code>.</p>
+</section>
+
+<section id="partie2">
+    <h2>Partie 2 : CSS</h2>
+    <p>Le CSS permet de styliser le sommaire et de rendre la navigation plus agréable.</p>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>Avec quelques lignes de code, vous pouvez créer un sommaire cliquable simple et efficace.</p>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="installation_poste.css">
+    <title>Portofolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="page_presentation.html"><img class="image_logo" src="logo.png" height="70"></a>
+            <input type="checkbox" id="burger">
+            <label for="burger"><i style="font-size: 20px" class="icon icon-menu"></i></label>
+            <div class="menu" bis_skin_checked="1">
+                <ul style="font-size: 20px;" class="list">
+                    <li><a href="page_presentation.html">Présentation</a></li>
+                    <li><a class="active" href="page_projets.html">Mes Projets</a></li>
+                    <li><a href="page_contacter.html">Me Contacter</a></li>
+                </ul>
+            </div>
+        </nav>        
+    </header>
+
+    <section class="debut">
+        <form>
+            <input type="button" value="Retour aux projets" onclick="history.back()">
+        </form>
+	    <h1 align="center">Installation d'un poste pour le développement</h1>
+
+    </section>
+    
+
+    <aside>
+        Test
+    </aside>
+   
+    <main>
+        <nav class="sommaire">
+            <h2>Sommaire</h2>
+            <ul>
+                <li><a href="#intro">Introduction du projet</a></li>
+                <li><a href="#partie1">Partie 1 : Installation de la machine virtuelle</a></li>
+                <li><a href="#partie2">Partie 2 : Installation de logiciel</a></li>
+                <li><a href="#competences">Compétences acquises</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+        
+        <section class="contenu">
+            <section id="intro">
+                <h2 style="text-decoration: underline;">Introduction du projet</h2>
+                <p>Ce projet a été réalisé en 3 heures, suite à quelques séances de pratique afin de maîtriser les commandes. J'étais en autonomie, 
+                sans professeur pour pouvoir aider, car normalement, je ne devais pas rencontrer de problèmes autres que ceux que nous avions vu 
+                lors des séances d'apprentissage. Le travail s'est fait en individuel. Le but de ce projet était d'installer une machine virtuelle 
+                Debian sans interface graphique, et d'y ajouter des logiciels, de telle sorte à ce que le résultat soit fonctionnel. Le langage utilisé pour réaliser ce 
+                projet était celui de Linux, à savoir les commandes du <i>shell</i>.
+                </p>
+            </section>
+
+            <section id="partie1">
+                <h2 style="text-decoration: underline;">Partie 1 : Installation de la machine virtuelle</h2>
+                <p>La première chose à faire avant de pouvoir lancer l'installation de la machine virtuelle était de récupérer son image ISO. Ensuite,
+                pour installer correctement la machine virtuelle, j'ai dû suivre des étapes précises et donc bien faire comme il était indiqué. Lors
+                des séances de préparation, les sujets très guidés, ce qui a permis lors de l'étape final d'avoir un bon support sur lequel m'appuyer 
+                si jamais j'hésitais. Comme je l'ai mentionné, je devais suivre des étapes assez précises pour l'installation. Je devais séléctionner 
+                le bon mode d'installation de la machine virtuelle, saisir les bonnes valeurs (nom d'utilisateur, nom de serveur, etc.) et faire les 
+                bons choix, tout cela en me basant sur les consignes.
+                </p>
+            </section>
+
+            <section id="partie2">
+                <h2 style="text-decoration: underline;">Partie 2 : Installation de logiciel</h2>
+                <p>Une fois la machine virtuelle Debian installée correctement, j'ai dû istaller le logiciel IntelliJ de deux manières différentes. La 
+                première manière était d'installer ce logiciel avec le package Snap et la seconde manière était de l'installer avec le package Flatpak.
+                La différence entre ces deux packages est que Flatpak utilise des bibliothèques communes. J'ai donc manipulé plusieurs commandes pour 
+                installer ces pckages, vérifier si tout marchait correctement et pour installer le logiciel IntelliJ.
+                </p>
+            </section>
+
+            <section id="competences">
+                <h2 style="text-decoration: underline;">Compétences acquises</h2>
+                <p>Pour conclure, ce projet m'a été très instuctif. J'ai beaucoup aimé le réaliser car nous étions très bien guidé et cela ne m'a pas demandé 
+                trop de réfléxions supplémentaires par rapport aux séances d'entrainement.
+                </p>
+            </section>
+
+            <section id="conclusion">
+                <h2 style="text-decoration: underline;">Conclusion</h2>
+                <p>Tout au long de ce projet, j'ai appris beaucoup de nouvelles commandes d'installation. Je sais maintenant installer une distribution Linux, 
+                y gérer des packages en éxécutant les bonnes commandes et installer des packages comme Snap et Flatpak. Ce projet m'a permi d'acquérir des 
+                bases solides pour pouvoir faire des installations dans mes prochaines années.
+                </p>
+            </section>
+
+            
+        </section>
+    </main>
+
+
+</body>
+</html>
