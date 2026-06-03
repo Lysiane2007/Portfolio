@@ -72,6 +72,11 @@ nav ul li:hover {
     font-size: 12px;
 }
 
+header>nav>p{
+    margin-right: auto;
+    margin-left: 20px;
+}
+
 #burger,
 .navbar label {
     display: none;

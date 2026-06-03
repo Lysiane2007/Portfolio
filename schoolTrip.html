@@ -14,6 +14,7 @@
     <header>
         <nav class="navbar">
             <a href="index.html"><img class="image_logo" src="logo.png" height="70"></a>
+            <p style="font-size: 20px;">Lysiane Blachon</p>
             <input type="checkbox" id="burger">
             <label for="burger"><i style="font-size: 20px" class="icon icon-menu"></i></label>
             <div class="menu" bis_skin_checked="1">
@@ -44,8 +45,8 @@
             <h2>Sommaire</h2>
             <ul>
                 <li><a href="#intro">Introduction du projet</a></li>
-                <li><a href="#partie1">Partie 1 : Création d'une table adaptée</a></li>
-                <li><a href="#partie2">Partie 2 : Analyse des données<a></li>
+                <li><a href="#partie1">Partie 1 : Explication du projet</a></li>
+                <li><a href="#partie2">Partie 2 : Rendus des travaux<a></li>
                 <li><a href="#competences">Compétences acquises</a></li>
                 <li><a href="#conclusion">Conclusion</a></li>
             </ul>
@@ -54,53 +55,99 @@
         <section class="contenu">
             <section id="intro">
                 <h2>Introduction du projet</h2>
-                <p>Ce projet a été réalisé en binôme et a duré un mois et demi. Chaque binôme s'est vu attribuer une problématique à propos d'une catégorie d'aliments, de
-                   nutri-scores ou encore d'un pays. Le but de ce projet était d'exploiter une base de données de plus de 3 millions de lignes (OpenFoodFacts), d'y choisir 
-                   les informations utiles pour répondre à notre problématique, et de les stocker dans une table spécialement créée. Dans un second, temps, nous avons dû 
-                   réaliser une étude précise pour tenter de répondre à cette problématique. Les langages que nous avons utilisés étaient SQL (pour créer notre table et 
-                   sélectionner les bonnes valeurs) et RStudio (pour créer des graphiques afin d'étudier nos valeurs).           
+                <p>Ce projet a commencé en avril et n'est pas encore terminé : il durera donc au total 3 mois.
+                   Nous sommes par groupe de 5 car le projet est d'une plus grande envergure que tous les précédents. 
+                   Le but de ce projet est de concevoir une application lourde, tournant sur ordinateur, ayant pour cible des organisateurs d'évènements. Nous avons donc choisi 
+                   de créer une application à destination de personnels académiques pour créer des voyages scolaires. Cette application ne contiendra pas de base de données et 
+                   devra fonctionner correctement sans accès à internet. Les langages que nous avons et allons utiliser sont UML, Java, Javafx et RStudio. Mon rôle dans ce groupe 
+                   est la communication : je dois m'occuper de la mise en forme, de l'othographe et des tournures de phrases, mais également des parties comme les introductions ou 
+                   les conclusions. C'est un travail que j'aime beaucoup faire.      
                 </p>
             </section>
 
             <section id="partie1">
-                <h2>Partie 1 : Création d'une table adaptée</h2>
-                <p>La base de données d'OpenFoodFacts comporte des données alimentaires telles que le nutri-score, les valeurs nutritionnelles, le nom du produit, etc. Une fois
-                   la problématique comprise, nous avons pu commencer à exploiter cette grande base de données en se renseignant sur le format des données. Nous avons sélectionné 
-                   les attributs (et leurs valeurs) qui avaient un lien, direct ou non, avec notre problématique. Pour rassembler toutes ces données, nous avons créé une table. 
-                   Une fois toutes les infos réunies, nous avons dû faire un gros travail de tri. Certaines données étaient fausses : par exemple, leurs valeurs nutritionnelles 
-                   étaient incohérentes (taux de sel bien trop élevé). Aussi, certaines données étaient incomplètes : il pouvait manquer le nutri-score, des valeurs nutritionnelles 
-                   ou encore le nom du produit. Notre travail était donc de rendre cette table la plus complète et juste possible. Le rendu de cette étape était un fichier contenant 
-                   la requête SQL utilisée. Il fallait qu'elle soit la plus courte possible, en limitant au maximum les petites requêtes.
+                <h2>Partie 1 : Explication du projet</h2>
+                <p>Notre projet est donc dédié à l'organisation de voyages scolaires auprès des établissements scolaires. Grâce à notre application, la création et l'organisation 
+                   de voyages est simple et intuitive. Premièrement, un enseignant crée un compte afin de pouvoir formuler sa demande. Il devient donc organisateur et peut ainsi 
+                   créer un voyage. Il remplit un formulaire en renseignant les données utiles comme la durée du voyage, l'effectif des participants ou encore le type d'activité 
+                   souhaité. Le budget du voyage est calculé automatiquement et une ventilation de ce dernier s'affiche. Le nombre d'accompagnateurs nécessaire pour la sécurité 
+                   des élèves est également calculé par l'application. L'organisateur confirme sa demande et un compte-rendu du voyage s'affiche, avec les informations clés 
+                   données précédemment. L'organisateur a maintenant la possibilité de rentrer la liste des élèves concernés par ce voyage. S'il accepte, il doit renseigner le nom, 
+                   le prénom et la classe de ces derniers. Sinon, il est redirigé vers une page où son voyage s'affiche : il aura la possibilité de le modifier ou de le supprimer. 
+                   L'application génère également un emploi du temps du voyage que l'organisateur peut télécharger. Il aura également la possibilité de visualiser la liste des 
+                   participants et leurs informations complémentaires (s'ils ont payé, s'ils sont autorisés). Enfin, l'organisateur pourra demander à l'application de générer des 
+                   feuilles d'autorisation pour chacun des élèves.
                 </p>
             </section>
 
             <section id="partie2">
-                <h2>Partie 2 : Analyse des données</h2>
-                <p>La deuxième étape de ce projet a été de réaliser une étude sur nos données, tout en restant en lien avec notre problématique. Grâce au logiciel RStudio, nous avons 
-                   donc pu construire des graphiques, de telle sorte à ce qu'ils soient le plus clair et compréhensible possible. Cela passait donc par de bons noms d'axes et des types 
-                   de graphiques adaptés.
-
+                <h2>Partie 2 : Rendus des travaux</h2>
+                <p>Durant ce projet, nous avons eu plusieurs rendus. Le premier était une analyse de fonction. Nous devions trouver une fonction mathématique à 2 variables, 
+                   l'adapter à notre contexte et la résoudre (en faisant les dérivées). Ce travail a nécessité l'utilisation du logiciel RStudio et de certaines de ses librairies. 
+                   Le rendu suivant était une partie sur les graphes. Là, le sujet était complètement différent et n'avait aucun lien avec le but de notre application : il fallait 
+                   modéliser 2 graphes pour 2 méthodes différentes pour la préparation d'une tarte tatin. Il fallait bien justifier nos choix et bien rédiger car la mise en page, 
+                   les justifications et l'othographe comptaient pour une grande partie des points. Nous devions également réaliser un dossier de cadrage de projet dans lequel nous 
+                   devions expliquer nos méthodes de travail, identifier les différents besoins (fonctionnels et non-fonctionnels), ou encore analyser des diagrammes (séquences, cas 
+                   d'utilisation, etc.). Un dossier de modélisation et de conception est également requis : nous devions faire le diagramme de cas d'utilisations, le diagramme métier 
+                   et aussi le diagramme de séquence. Nous devions également y intégrer les détails de chaque cas d'utilisations, en plus de rédiger un petit rapport sur le travail que 
+                   nous avions effectué. Enfin, le dossier IHM est un des rendus dans lequel nous devons faire apparaître les personas (personne type qui pourrait utiliser notre 
+                   application), une maquette de notre application avec ses analyses heuristiques et ses critères ergonomiques.
                 </p>
             </section>
 
             <section id="competences">
                 <h2>Compétences acquises</h2>
-                <p>Tout au long de ce projet, j'ai pu renfocer mes compétences au niveau des requêtes SQL car il fallait être trsè précis afin d'avoir les bonnes valeurs. J'ai également 
-                   pu renforcer mes compétences dans le logiciel RStudio au niveau de la création de graphiques. Il fallait être méthodique pour ne pas se perdre dans toutes les données 
-                   de la base, et donc, noter correctement ce que nous faisions à chaque étape. 
+                <p>Tout au long de ce projet, et même s'il n'est pas encore achevé, j'ai pu renforcer mes capacités de rédaction, notamment lors des nombreuses explications contenues dans 
+                   chaque rendu. Travailler en groupe m'a permis de mieux apprendre à gérer le temps, car comme le projet est long et assez fourni, nous sommes dans l'obligation de respecter 
+                   tous les délais sans exceptions. Etre dans un groupe m'a aussi permis de mieux prendre mes responsabilités : il faut s'entraider et toujours rester en accord avec les autres 
+                   membres sous peine de différences d'opinions voire même de conflits.
                 </p>
             </section>
 
             <section id="conclusion">
                 <h2>Conclusion</h2>
-                <p>Pour clore cette rapide présentation du projet, j'ai beaucoup aimé le réaliser car cela touchait de vrais sujets (nutri-score, valeurs nutritionnelles, etc.) sur lesquels 
-                   nous devions avoir un certain aspect critique pour expliquer notre avis.
+                <p>Bien qu'inachevé, ce projet m'a beaucoup plu car nous avions la liberté de prendre le sujet et le thème que nous voulions pour créer notre application. Nous avons pu décider 
+                   quoi mettre comme fonctionnalités et comment agencer tout cela. Je trouve que les délais pour rendre les différents dossiers étaient corrects et suffisant.
                 </p>
             </section>
-
-            
         </section>
     </main>
+
+    <footer>
+		<section>
+			<h3>À propos</h3>
+			<p>Lysiane Blachon</p>
+			<p>Étudiante en BUT1 Informatique </p>
+			<p>Grenoble (38)</p>
+		</section>
+
+		<section>
+			<h3>Navigation</h3>
+			<ul>
+				<li><a href="index.html">Présentation</a></li>
+				<li><a href="page_projets.html">Mes Projets</a></li>
+				<li><a href="page_contacter.html">Me Contacter</a></li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Contact</h3>
+			<a href="mailto:lysiane.blachon@etu.univ-grenoble-alpes.fr">Adresse email</a>
+			<a href="tel:+33670068852">Numéro de téléphone</a>
+			<a href="https://www.linkedin.com/in/lysiane-blachon-6a40793a9/">
+				<i class="icon icon-social-linkedin"></i> LinkedIn
+			</a>
+		</section>
+
+		<section>
+			<h3>Vous êtes intéressé(e) ?</h3>
+			<button onclick="window.location.href='page_contacter.html'" class="me_contacter" type="button">Contactez-moi !</button>
+		</section>
+
+		<div class="footer_bottom">
+			<p>© 2026 Lysiane Blachon — Tous droits réservés</p>
+		</div>
+	</footer>
 
 
 </body>

@@ -5,81 +5,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sommaire Cliquable</title>
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-    }
+.formation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-    /* Style du sommaire */
-    .sommaire {
-        background: #f4f4f4;
-        padding: 15px;
-        border-radius: 5px;
-        max-width: 300px;
-    }
+.formation-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-left: 3px solid #7F77DD;
+  padding-left: 12px;
+}
 
-    .sommaire h2 {
-        margin-top: 0;
-    }
+.annees {
+  font-size: 12px;
+  color: #888;
+}
 
-    .sommaire ul {
-        list-style: none;
-        padding-left: 0;
-    }
-
-    .sommaire li {
-        margin: 5px 0;
-    }
-
-    .sommaire a {
-        text-decoration: none;
-        color: brown;
-    }
-
-    .sommaire a:hover {
-        text-decoration: underline;
-    }
-
-    /* Espacement entre sections */
-    section {
-        margin-top: 50px;
-    }
+.ville {
+  font-size: 13px;
+  color: #555;
+}
 </style>
 </head>
 <body>
+<div class="formation">
 
-<!-- Sommaire -->
-<nav class="sommaire">
-    <h2>Sommaire</h2>
-    <ul>
-        <li><a href="#intro">Introduction</a></li>
-        <li><a href="#partie1">Partie 1 : HTML</a></li>
-        <li><a href="#partie2">Partie 2 : CSS</a></li>
-        <li><a href="#conclusion">Conclusion</a></li>
-    </ul>
-</nav>
+  <div class="formation-item">
+    <span class="annees">2018 – 2022</span>
+    <strong>Collège Jules Verne</strong>
+    <span class="ville">Varces-Allières-et-Risset, Isère</span>
+  </div>
 
-<!-- Contenu -->
-<section id="intro">
-    <h2>Introduction</h2>
-    <p>Bienvenue dans cet exemple de sommaire cliquable en HTML et CSS.</p>
-</section>
+  <div class="formation-item">
+    <span class="annees">2022 – 2025</span>
+    <strong>Lycée Polyvalent Jacques Vaucanson</strong>
+    <span class="ville">Grenoble, Isère</span>
+  </div>
 
-<section id="partie1">
-    <h2>Partie 1 : HTML</h2>
-    <p>Le HTML permet de structurer le contenu et de créer des ancres avec l'attribut <code>id</code>.</p>
-</section>
+  <div class="formation-item">
+    <span class="annees">2025 – maintenant</span>
+    <strong>IUT2</strong>
+    <span class="ville">Grenoble, Isère</span>
+  </div>
 
-<section id="partie2">
-    <h2>Partie 2 : CSS</h2>
-    <p>Le CSS permet de styliser le sommaire et de rendre la navigation plus agréable.</p>
-</section>
-
-<section id="conclusion">
-    <h2>Conclusion</h2>
-    <p>Avec quelques lignes de code, vous pouvez créer un sommaire cliquable simple et efficace.</p>
-</section>
+</div>
 
 </body>
 </html>
