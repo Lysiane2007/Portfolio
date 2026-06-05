@@ -108,6 +108,15 @@ header>nav>p{
    
 }
 
+.box1{
+  width: calc(47.2% - 8px);
+  height: 250px;
+  background-color: #ede0d4;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
 .formation {
   display: flex;
   flex-direction: column;
@@ -173,13 +182,13 @@ input[type="email"], input[type="text"]{
 
 textarea {
     border: 1px solid black;
+    background-color: var(--couleur_barre_nav);
     padding: 5px;
     border-radius: 5px;
-    max-height: 600px;
+    max-height: 700px;
     min-height: 100px;
+    width: 205px;
     resize: none;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 
