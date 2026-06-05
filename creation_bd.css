@@ -163,16 +163,22 @@ main{
 }
 
 
-aside{
+aside {
     background: #ede0d4;
-    padding: 15px;
+    padding: 16px;
     border-radius: 5px;
     width: 95%;
-    height: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    text-align: center;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+aside img {
+    width: 400px;       
+    height: 450px;
+    object-fit: contain;
 }
 
 .contenu {
@@ -180,6 +186,31 @@ aside{
     flex-direction: column;
     flex: 1;
     padding: 0 20px;
+}
+
+aside .formation-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-left: 3px solid var(--marron);
+    padding-left: 12px;
+    text-align: left;   
+}
+
+.groupe {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;  
+}
+
+aside .annees {
+    font-size: 12px;
+    color: #888;
+}
+
+aside .ville {
+    font-size: 13px;
+    color: #555;
 }
 
 /*FIN corps de la page */
